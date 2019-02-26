@@ -8,7 +8,7 @@
 
 [![Build Status](https://travis-ci.org/BeguinMattis/Test-restoration-crud.svg?branch=dev)](https://travis-ci.org/BeguinMattis/Test-restoration-crud)
 
-## The deployment URL of the back-end part is : [https://test-restoration-back.herokuapp.com/](https://test-restoration-back.herokuapp.com/ "Link")
+## The deployment URL of the CRUD API is : [https://test-restoration-crud.herokuapp.com/](https://test-restoration-crud.herokuapp.com/ "Link")
 
 ## Features of the Web Application :
 
