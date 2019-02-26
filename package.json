@@ -1,5 +1,5 @@
 {
-  "name": "crud",
+  "name": "test-restoration-crud",
   "version": "1.0.0",
   "description": "Test CRUD part of the restoration Web application",
   "main": "./src/app.js",
@@ -11,7 +11,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BeguinMattis/Test-restoration-back.git"
+    "url": "https://github.com/BeguinMattis/Test-restoration-crud.git"
+  },
+  "engines": {
+    "node": "10.x"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

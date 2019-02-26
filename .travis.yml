@@ -13,3 +13,11 @@ cache:
     - "/node_modules"
 script:
   - npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: GaCI3is1JbQTQPxQF1fIT6qdNEYe7Q0eN1tJVB6cwk82gga9oBpiyUAkkbBdl0KhDehcRXBtHr4TMQn33VbXWn2ZZ2156FFQd8mOkOiqq566hlYLjiJbZkgUn+DXd7058SZT6QWkQ882sejmBzBivEj8y+/bY7+GvWn8W5BCo6ztE8rtkOFt1ksnTp8WPVEynstPGK4pnKo3wNoedrKPqleuUPYZcp9ZTKCVEj2LVqNMj2QVdjZSlV/jWhw/BKkkegg5je/nNYoqxtyiLWk4ewZwRAdRt3p+8mHSRuCEfh+0Fr1S3lctrtSZ3TwbgW8W95Voh6HKHUj+2sizKbbqxbGwPsSxZSB4PH3nfewjw6rGXVwcXkoUxvid10K83Nk4vxAS/OYfANCNcVFMgxu/aEz7i9YEOWJ6Wi5G4jKxSSY52oNVMidTMysAFjyEieqZDY96rAEXgIYSslIuz0ThW8qAOMb++GMkkhEVlGNBhiOWf8lFogV51m5ygGc4/Z2HZwJVbIKFCkN70KM4E0a/0pYCFzgMxkr1EhEmrLt1AeEQ+gUEfaZB5T3pEPn/v86ZLHl57GVxpwpq/VC+T9QkPYMtjYSWULAWHXM/2aEtPtN9YPnKbXxp3TtAyJHz/BbLfeUw1rCeZcG76NCBGo7Tk8ooIFHsHgSsNGeqeBvpIeI=
+  app: test-restoration-crud
+  on:
+    repo: BeguinMattis/Test-restoration-crud
+    branch: dev
