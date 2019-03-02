@@ -34,7 +34,7 @@
 - Git / GitHub for code version management
 - Travis for continuous integration
 - Heroku for Web Application Deployment
-- Google Maps and Google Places as external APIs
+- Google Auth, Google Maps and Google Places as external APIs
 
 ## Schedule of work to be done :
 
